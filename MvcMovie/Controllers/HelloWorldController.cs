@@ -10,9 +10,9 @@ namespace MvcMovie.Controllers
         //
         // GET: /HelloWorld/
 
-        public string Index()
+        public IActionResult Index()
         {
-            return "This is my defaul action...";
+            return View();
         }
 
         //
